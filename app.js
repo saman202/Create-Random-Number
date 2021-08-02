@@ -6,16 +6,6 @@ const selectNumber = document.querySelector("#selectNum");
 let x = 0;
 let i = 0;
 
-/* const newHeader = document.createElement("h1");
-newHeader.textContent = "Added Header!";
-document.querySelector("body").appendChild(newHeader); */
-
-
-
-
-
-
-
 const removeButton = document.querySelector("#removeb");
 const addButton = document.querySelector("#addb");
 
@@ -24,18 +14,6 @@ const addButton = document.querySelector("#addb");
 addButton.addEventListener("click", pressAdd);
 removeButton.addEventListener("click", pressRemove);
 
-
-/*
-p.forEach(function (item, index) {
-	var num = index + 1;
-	item.textContent = item.textContent + " Updated";
-
-
-	console.log(`${num}  ${item.innerText}`);
-
-
-});
-*/
 
 function pressAdd(e) {
 	if (selectNumber.selectedIndex === 5) {
@@ -62,7 +40,7 @@ function pressAdd(e) {
 
 	removeButton.innerHTML = "Number is : " + i;
 	e.target.textContent = "Number is : " + i;
-	//const newP = document.createElement(`p`);
+	
 	const newOption = document.createElement(`option`);
 	newOption.id = i;
 	console.log("Function add run");
