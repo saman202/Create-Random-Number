@@ -1,0 +1,59 @@
+body {
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+select {
+	width:200px;
+	height:30px;
+	font-family:'Times New Roman';
+	font-style:italic
+		
+}
+fieldset {
+	justify-content: center;
+	align-items: center;
+	align-content:center;
+	
+
+}
+ h1{
+	 font-family:Impact
+
+ }
+ h2{
+	 font-family:'Times New Roman'
+
+
+ }
+
+option {
+	justify-content: center;
+	align-items: center
+	
+}
+
+button {
+	width: 150px;
+	height: 60px;
+	background-color: #1C6489;
+	color:antiquewhite;
+	justify-content:center;
+	align-items:center
+}
+#option-creat2{
+	font-family:Britannic;
+	color:crimson
+}
+input {
+	width: 70px;
+	height: 30px;
+	font-family: 'Times New Roman';
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+	font-style: italic
+}
